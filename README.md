@@ -26,9 +26,7 @@ public class App {
   private int timeout = 3000;
 	
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
-    AlphaVantageConnector con = new AlphaVantageConnector(API_KEY,3000);
-		
+    AlphaVantageConnector con = new AlphaVantageConnector(API_KEY,3000);	
     Daily ohlc = con.forex().daily("EUR","USD",OutputSize.FULL);
   }
 }
