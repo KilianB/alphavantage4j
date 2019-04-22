@@ -10,6 +10,8 @@ import org.junit.Test;
 import org.patriques.input.timeseries.OutputSize;
 import org.patriques.output.exchange.Daily;
 
+import com.github.kilianB.AlphaVantageConnector;
+
 /**
  * @author Kilian
  *
